@@ -16,3 +16,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/test', 'MainController@getAllDay');
+
+Route::get('/index', 'MainController@getDailySaleData')->name('index');
