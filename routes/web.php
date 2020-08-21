@@ -18,5 +18,4 @@ Route::get('/', function () {
 });
 
 Route::get('/test', 'MainController@getAllDay');
-
-Route::get('/index', 'MainController@getDailySaleData')->name('index');
+Route::get('/index', 'MainController@index')->name('index');

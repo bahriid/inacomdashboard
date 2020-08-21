@@ -15,7 +15,7 @@ body {
   color: #888ea8;
   height: 100%;
   font-size: 0.875rem;
-  background: #060818;
+  background: #07090A;
   overflow-x: hidden;
   overflow-y: auto;
   letter-spacing: 0.0312rem;
@@ -1691,9 +1691,10 @@ input[disabled], select[disabled], textarea[disabled], input[readonly], select[r
 
 /*  Table   */
 .table {
-  background-color: #060818; }
+  background-color: #1D2225; }
   .table > thead > tr > th {
-    color: #d3d3d3; }
+    color: #d3d3d3; 
+    background-color: #E71A27;}
   .table > tbody > tr > td {
     color: #bfc9d4; }
   .table.table-hover tbody tr {
@@ -1893,6 +1894,14 @@ table .badge-success, table .badge-primary, table .badge-warning, table .badge-d
   margin-bottom: 1.25rem;
   height: 16px;
   box-shadow: none; }
+  .progress2 {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+    background-color: #191e3a;
+    margin-bottom: 1.25rem;
+    height: 16px;
+    box-shadow: none; }
   .progress.progress-bar-stack .progress-bar:last-child {
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px; }
@@ -1946,7 +1955,7 @@ table .badge-success, table .badge-primary, table .badge-warning, table .badge-d
 
 .progress .progress-bar.bg-gradient-warning {
   background-color: #1b55e2;
-  background-image: linear-gradient(to right, #f09819 0%, #ff5858 100%); }
+  background-image: linear-gradient(to right, #4A3621 0%, #FD8610 100%); }
 
 .progress .progress-bar.bg-gradient-secondary {
   background-color: #1b55e2;
@@ -1954,7 +1963,7 @@ table .badge-success, table .badge-primary, table .badge-warning, table .badge-d
 
 .progress .progress-bar.bg-gradient-danger {
   background-color: #1b55e2;
-  background-image: linear-gradient(to right, #d09693 0%, #c71d6f 100%); }
+  background-image: linear-gradient(to right, #A30000 0%, #E71A27 100%); }
 
 .progress .progress-bar.bg-gradient-dark {
   background-color: #1b55e2;
