@@ -206,7 +206,7 @@
     font-size: 17px;
 }
 .widget-two .w-chart {
-    position: absolute;
+    position: relative;
     bottom: 0;
     bottom: 0;
     right: 0;
@@ -256,7 +256,7 @@
 
 .widget-one {
     position: relative;
-    background: #1b55e2;
+    background: #1D2225;
     padding: 0;
     border-radius: 8px;
     height: 100%;
@@ -273,7 +273,7 @@
 }
 .widget-one .w-numeric-value .w-icon {
     display: inline-block;
-    background: #c2d5ff;
+    background: #E71A27;
     padding: 13px 12px;
     border-radius: 50%;
     display: inline-flex;
@@ -296,6 +296,60 @@
     margin-bottom: -9px;
 }
 .widget-one .w-numeric-value .w-numeric-title {
+    font-size: 13px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+/*
+    ==================
+        Widget
+    ==================
+*/
+
+.widget-one2 {
+    position: relative;
+    background: #1D2225;
+    padding: 0;
+    border-radius: 8px;
+    height: 100%;
+}
+.widget-one2 .widget-content {
+    font-size: 17px;
+}
+.widget-one2 .w-numeric-value {
+    position: absolute;
+    display: flex;
+    color: #fff;
+    font-weight: 500;
+    padding: 20px;
+}
+.widget-one2 .w-numeric-value .w-icon {
+    display: inline-block;
+    background: #FD8610;
+    padding: 13px 12px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-self: center;
+    height: 45px;
+    width: 45px;
+    margin-right: 14px;
+}
+.widget-one2 .w-numeric-value svg {
+    display: block;
+    color: #1b55e2;
+    width: 20px;
+    height: 20px;
+}
+.widget-one2 .w-numeric-value .w-value {
+    font-size: 26px;
+    display: block;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: -9px;
+}
+.widget-one2 .w-numeric-value .w-numeric-title {
     font-size: 13px;
     color: #fff;
     letter-spacing: 1px;

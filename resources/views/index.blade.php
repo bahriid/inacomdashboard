@@ -49,8 +49,9 @@
                     </svg></a>
 
                 <div class="nav-logo align-self-center">
-                    <a class="navbar-brand" href="index.html"><img alt="logo" src="assets/img/90x90.jpg"> <span
-                            class="navbar-brand-name">CORK</span></a>
+                    <a class="navbar-brand" href="index.html"><span
+                            class="navbar-brand-name">inacom.</span><span
+                            class="navbar-brand-name2">id</span></a>
                 </div>
 
                 <ul class="navbar-item flex-row mr-auto">
@@ -71,221 +72,13 @@
                 </ul>
 
                 <ul class="navbar-item flex-row nav-dropdowns">
-                    <li class="nav-item dropdown language-dropdown more-dropdown">
-                        <div class="dropdown custom-dropdown-icon">
-                            <a class="dropdown-toggle btn" href="#" role="button" id="customDropdown"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
-                                    src="assets/img/ca.png" class="flag-width" alt="flag"><svg
-                                    xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-chevron-down">
-                                    <polyline points="6 9 12 15 18 9"></polyline>
-                                </svg></a>
-
-                            <div class="dropdown-menu dropdown-menu-right animated fadeInUp"
-                                aria-labelledby="customDropdown">
-                                <a class="dropdown-item" data-img-value="de" data-value="de"
-                                    href="javascript:void(0);"><img src="assets/img/de.png" class="flag-width"
-                                        alt="flag"> German</a>
-                                <a class="dropdown-item" data-img-value="jp" data-value="jp"
-                                    href="javascript:void(0);"><img src="assets/img/jp.png" class="flag-width"
-                                        alt="flag"> Japanese</a>
-                                <a class="dropdown-item" data-img-value="fr" data-value="fr"
-                                    href="javascript:void(0);"><img src="assets/img/fr.png" class="flag-width"
-                                        alt="flag"> French</a>
-                                <a class="dropdown-item" data-img-value="ca" data-value="en"
-                                    href="javascript:void(0);"><img src="assets/img/ca.png" class="flag-width"
-                                        alt="flag"> English</a>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="nav-item dropdown message-dropdown">
-                        <a href="javascript:void(0);" class="nav-link dropdown-toggle" id="messageDropdown"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-message-circle">
-                                <path
-                                    d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
-                                </path>
-                            </svg><span class="badge badge-success"></span>
-                        </a>
-                        <div class="dropdown-menu p-0 position-absolute animated fadeInUp"
-                            aria-labelledby="messageDropdown">
-                            <div class="">
-                                <a class="dropdown-item">
-                                    <div class="">
-
-                                        <div class="media">
-                                            <div class="user-img">
-                                                <div class="avatar avatar-xl">
-                                                    <span class="avatar-title rounded-circle">KY</span>
-                                                </div>
-                                            </div>
-                                            <div class="media-body">
-                                                <div class="">
-                                                    <h5 class="usr-name">Kara Young</h5>
-                                                    <p class="msg-title">ACCOUNT UPDATE</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </a>
-                                <a class="dropdown-item">
-                                    <div class="">
-                                        <div class="media">
-                                            <div class="user-img">
-                                                <div class="avatar avatar-xl">
-                                                    <span class="avatar-title rounded-circle">DA</span>
-                                                </div>
-                                            </div>
-                                            <div class="media-body">
-                                                <div class="">
-                                                    <h5 class="usr-name">Daisy Anderson</h5>
-                                                    <p class="msg-title">ACCOUNT UPDATE</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item">
-                                    <div class="">
-
-                                        <div class="media">
-                                            <div class="user-img">
-                                                <div class="avatar avatar-xl">
-                                                    <span class="avatar-title rounded-circle">OG</span>
-                                                </div>
-                                            </div>
-                                            <div class="media-body">
-                                                <div class="">
-                                                    <h5 class="usr-name">Oscar Garner</h5>
-                                                    <p class="msg-title">ACCOUNT UPDATE</p>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-
-                    <li class="nav-item dropdown notification-dropdown">
-                        <a href="javascript:void(0);" class="nav-link dropdown-toggle" id="notificationDropdown"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" class="feather feather-bell">
-                                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
-                                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
-                            </svg><span class="badge badge-success"></span>
-                        </a>
-                        <div class="dropdown-menu position-absolute animated fadeInUp"
-                            aria-labelledby="notificationDropdown">
-                            <div class="notification-scroll">
-
-                                <div class="dropdown-item">
-                                    <div class="media server-log">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round"
-                                            class="feather feather-server">
-                                            <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
-                                            <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
-                                            <line x1="6" y1="6" x2="6" y2="6"></line>
-                                            <line x1="6" y1="18" x2="6" y2="18"></line>
-                                        </svg>
-                                        <div class="media-body">
-                                            <div class="data-info">
-                                                <h6 class="">Server Rebooted</h6>
-                                                <p class="">45 min ago</p>
-                                            </div>
-
-                                            <div class="icon-status">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="feather feather-x">
-                                                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                                                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="dropdown-item">
-                                    <div class="media ">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round"
-                                            class="feather feather-heart">
-                                            <path
-                                                d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z">
-                                            </path>
-                                        </svg>
-                                        <div class="media-body">
-                                            <div class="data-info">
-                                                <h6 class="">Licence Expiring Soon</h6>
-                                                <p class="">8 hrs ago</p>
-                                            </div>
-
-                                            <div class="icon-status">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="feather feather-x">
-                                                    <line x1="18" y1="6" x2="6" y2="18"></line>
-                                                    <line x1="6" y1="6" x2="18" y2="18"></line>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div class="dropdown-item">
-                                    <div class="media file-upload">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                                            stroke-linecap="round" stroke-linejoin="round"
-                                            class="feather feather-file-text">
-                                            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                                            <polyline points="14 2 14 8 20 8"></polyline>
-                                            <line x1="16" y1="13" x2="8" y2="13"></line>
-                                            <line x1="16" y1="17" x2="8" y2="17"></line>
-                                            <polyline points="10 9 9 9 8 9"></polyline>
-                                        </svg>
-                                        <div class="media-body">
-                                            <div class="data-info">
-                                                <h6 class="">Kelly Portfolio.pdf</h6>
-                                                <p class="">670 kb</p>
-                                            </div>
-
-                                            <div class="icon-status">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                                    viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                                                    class="feather feather-check">
-                                                    <polyline points="20 6 9 17 4 12"></polyline>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </li>
-
                     <li class="nav-item dropdown user-profile-dropdown order-lg-0 order-1">
                         <a href="javascript:void(0);" class="nav-link dropdown-toggle user" id="user-profile-dropdown"
                             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                             <div class="media">
-                                <img src="assets/img/90x90.jpg" class="img-fluid" alt="admin-profile">
+                                {{-- <img src="assets/img/90x90.jpg" class="img-fluid" alt="admin-profile"> --}}
                                 <div class="media-body align-self-center">
-                                    <h6><span>Hi,</span> Alan</h6>
+                                    <h6><span>Hi,</span> Admin</h6>
                                 </div>
                             </div>
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -354,22 +147,10 @@
             <!--  BEGIN TOPBAR  -->
             <div class="topbar-nav header navbar" role="banner">
                 <nav id="topbar">
-                    <ul class="navbar-nav theme-brand flex-row  text-center">
-                        <li class="nav-item theme-logo">
-                            <a href="index.html">
-                                <img src="assets/img/90x90.jpg" class="navbar-logo" alt="logo">
-                            </a>
-                        </li>
-                        <li class="nav-item theme-text">
-                            <a href="index.html" class="nav-link"> CORK </a>
-                        </li>
-                    </ul>
-
                     <ul class="list-unstyled menu-categories" id="topAccordion">
 
-                        <li class="menu single-menu active">
-                            <a href="#dashboard" data-toggle="collapse" aria-expanded="true"
-                                class="dropdown-toggle autodroprown">
+                        <li class="menu single-menu active mx-auto">
+                            <a href="#dashboard" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                                 <div class="">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
@@ -379,15 +160,10 @@
                                     </svg>
                                     <span>Dashboard</span>
                                 </div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-chevron-down">
-                                    <polyline points="6 9 12 15 18 9"></polyline>
-                                </svg>
                             </a>
                         </li>
 
-                        <li class="menu single-menu">
+                        <li class="menu single-menu active mx-auto">
                             <a href="#app" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">
                                 <div class="">
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
@@ -406,11 +182,6 @@
                                     </svg>
                                     <span>Lihat Pesanan</span>
                                 </div>
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                    stroke-linejoin="round" class="feather feather-chevron-down">
-                                    <polyline points="6 9 12 15 18 9"></polyline>
-                                </svg>
                             </a>
                         </li>
                     </ul>
@@ -457,7 +228,7 @@
                                             var options1 = {
                                                 chart: {
                                                     fontFamily: 'Quicksand, sans-serif',
-                                                    height: 350,
+                                                    height: 330,
                                                     type: 'area',
                                                     zoom: {
                                                         enabled: false
@@ -684,143 +455,348 @@
                                                     <div id="uniqueVisits"></div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <script>
-                                            /*
-                                                ===================================
-                                                    Unique Visitors | Options
-                                                ===================================
-                                            */
-
-                                            var d_1options1 = {
-                                            chart: {
-                                                height: 350,
-                                                type: 'bar',
-                                                toolbar: {
-                                                    show: false,
-                                                },
-                                                dropShadow: {
-                                                    enabled: true,
-                                                    top: 1,
-                                                    left: 1,
-                                                    blur: 1,
-                                                    color: '#515365',
-                                                    opacity: 0.3,
-                                                }
-                                            },
-                                            colors: ['#FD8610', '#ffbb44'],
-                                            plotOptions: {
-                                                bar: {
-                                                    horizontal: false,
-                                                    columnWidth: '55%',
-                                                    endingShape: 'rounded'  
-                                                },
-                                            },
-                                            dataLabels: {
-                                                enabled: false
-                                            },
-                                            legend: {
-                                                    position: 'bottom',
-                                                    horizontalAlign: 'center',
-                                                    fontSize: '14px',
-                                                    markers: {
-                                                    width: 10,
-                                                    height: 10,
+                                            <script>
+                                                /*
+                                                    ===================================
+                                                        Unique Visitors | Options
+                                                    ===================================
+                                                */
+    
+                                                var d_1options1 = {
+                                                chart: {
+                                                    height: 330,
+                                                    type: 'bar',
+                                                    toolbar: {
+                                                        show: false,
                                                     },
-                                                    itemMargin: {
-                                                    horizontal: 0,
-                                                    vertical: 8
+                                                    dropShadow: {
+                                                        enabled: true,
+                                                        top: 1,
+                                                        left: 1,
+                                                        blur: 1,
+                                                        color: '#515365',
+                                                        opacity: 0.3,
                                                     }
-                                            },
-                                            grid: {
-                                                borderColor: '#191e3a',
-                                            },
-                                            stroke: {
-                                                show: true,
-                                                width: 2,
-                                                colors: ['transparent']
-                                            },
-                                            series: [{
-                                                name: 'Direct',
-                                                data: {{$user_count_data}}
-                                            }],
-                                            xaxis: {
-                                                categories: <?php echo ($user_days); ?>,
-                                            },
-                                            fill: {
-                                                type: 'gradient',
-                                                gradient: {
-                                                shade: 'dark',
-                                                type: 'vertical',
-                                                shadeIntensity: 0.3,
-                                                inverseColors: false,
-                                                opacityFrom: 1,
-                                                opacityTo: 0.8,
-                                                stops: [0, 100]
-                                                }
-                                            },
-                                            tooltip: {
-                                                theme: 'dark',
-                                                y: {
-                                                    formatter: function (val) {
-                                                        return val
+                                                },
+                                                colors: ['#FD8610', '#ffbb44'],
+                                                plotOptions: {
+                                                    bar: {
+                                                        horizontal: false,
+                                                        columnWidth: '55%',
+                                                        endingShape: 'rounded'  
+                                                    },
+                                                },
+                                                dataLabels: {
+                                                    enabled: false
+                                                },
+                                                legend: {
+                                                        position: 'bottom',
+                                                        horizontalAlign: 'center',
+                                                        fontSize: '14px',
+                                                        markers: {
+                                                        width: 10,
+                                                        height: 10,
+                                                        },
+                                                        itemMargin: {
+                                                        horizontal: 0,
+                                                        vertical: 8
+                                                        }
+                                                },
+                                                grid: {
+                                                    borderColor: '#191e3a',
+                                                },
+                                                stroke: {
+                                                    show: true,
+                                                    width: 2,
+                                                    colors: ['transparent']
+                                                },
+                                                series: [{
+                                                    name: 'Direct',
+                                                    data: {{$user_count_data}}
+                                                }],
+                                                xaxis: {
+                                                    categories: <?php echo ($user_days); ?>,
+                                                },
+                                                fill: {
+                                                    type: 'gradient',
+                                                    gradient: {
+                                                    shade: 'dark',
+                                                    type: 'vertical',
+                                                    shadeIntensity: 0.3,
+                                                    inverseColors: false,
+                                                    opacityFrom: 1,
+                                                    opacityTo: 0.8,
+                                                    stops: [0, 100]
+                                                    }
+                                                },
+                                                tooltip: {
+                                                    theme: 'dark',
+                                                    y: {
+                                                        formatter: function (val) {
+                                                            return val
+                                                        }
                                                     }
                                                 }
-                                            }
-                                            }
-                                            /*
-                                                ===================================
-                                                    Unique Visitors | Script
-                                                ===================================
-                                            */
+                                                }
+                                                /*
+                                                    ===================================
+                                                        Unique Visitors | Script
+                                                    ===================================
+                                                */
+    
+                                                var d_1C_3 = new ApexCharts(
+                                                    document.querySelector("#uniqueVisits"),
+                                                    d_1options1
+                                                );
+                                                d_1C_3.render();
+                                            </script>
+                                        </div>
 
-                                            var d_1C_3 = new ApexCharts(
-                                                document.querySelector("#uniqueVisits"),
-                                                d_1options1
-                                            );
-                                            d_1C_3.render();
-                                        </script>
                                     </div>
 
                                     <div class="row">
 
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
                                             <div class="row widget-statistic">
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                                    <div class="widget">
-                                                        <div class="card-body">
-                                                            <div class="icon-svg">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                                    height="24" viewBox="0 0 24 24" fill="none"
-                                                                    stroke="currentColor" stroke-width="2"
-                                                                    stroke-linecap="round" stroke-linejoin="round"
-                                                                    class="feather feather-droplet">
-                                                                    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z">
-                                                                    </path>
-                                                                </svg>
+
+                                                <div
+                                                    class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
+                                                    <div class="widget-one">
+                                                        <div class="widget-content">
+                                                            <div class="w-numeric-value">
+                                                                <div class="w-icon">
+                                                                    <svg width="82" height="91" viewBox="0 0 82 91"
+                                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <g filter="url(#filter0_d)">
+                                                                            <path d="M59 34.592L23 13.832"
+                                                                                stroke="white" stroke-width="2"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <path
+                                                                                d="M77 60.9918V28.9918C76.9986 27.5889 76.6282 26.211 75.9262 24.9964C75.2241 23.7819 74.2149 22.7732 73 22.0718L45 6.0718C43.7838 5.36965 42.4043 5 41 5C39.5957 5 38.2162 5.36965 37 6.0718L9 22.0718C7.78505 22.7732 6.77592 23.7819 6.07385 24.9964C5.37177 26.211 5.00144 27.5889 5 28.9918V60.9918C5.00144 62.3947 5.37177 63.7726 6.07385 64.9871C6.77592 66.2017 7.78505 67.2103 9 67.9118L37 83.9118C38.2162 84.6139 39.5957 84.9836 41 84.9836C42.4043 84.9836 43.7838 84.6139 45 83.9118L73 67.9118C74.2149 67.2103 75.2241 66.2017 75.9262 64.9871C76.6282 63.7726 76.9986 62.3947 77 60.9918Z"
+                                                                                stroke="white" stroke-width="2"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <path
+                                                                                d="M6.07996 24.832L41 45.032L75.92 24.832"
+                                                                                stroke="white" stroke-width="2"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <path d="M41 85.3122V44.9922" stroke="white"
+                                                                                stroke-width="2" stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                        </g>
+                                                                        <defs>
+                                                                            <filter id="filter0_d" x="0" y="0"
+                                                                                width="82" height="90.3122"
+                                                                                filterUnits="userSpaceOnUse"
+                                                                                color-interpolation-filters="sRGB">
+                                                                                <feFlood flood-opacity="0"
+                                                                                    result="BackgroundImageFix" />
+                                                                                <feColorMatrix in="SourceAlpha"
+                                                                                    type="matrix"
+                                                                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                                                                <feOffset />
+                                                                                <feGaussianBlur stdDeviation="2" />
+                                                                                <feColorMatrix type="matrix"
+                                                                                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                                                                                <feBlend mode="normal"
+                                                                                    in2="BackgroundImageFix"
+                                                                                    result="effect1_dropShadow" />
+                                                                                <feBlend mode="normal"
+                                                                                    in="SourceGraphic"
+                                                                                    in2="effect1_dropShadow"
+                                                                                    result="shape" />
+                                                                            </filter>
+                                                                        </defs>
+                                                                    </svg>
+
+                                                                </div>
+                                                                <div class="w-content">
+                                                                    <span class="w-value">112,678</span>
+                                                                    <span class="w-numeric-title">SKU Product</span>
+                                                                </div>
                                                             </div>
-                                                            <h5 class="card-title">Simple</h5>
-                                                            <p class="card-text">Mauris nisi felis, placerat in volutpat
-                                                                id, varius et sapien.</p>
+                                                            <div class="w-chart">
+                                                                <div id="total-orders"></div>
+                                                            </div>
+                                                            <script>
+                                                                var d_2options2 = {
+                                                                        chart: {
+                                                                            id: 'sparkline1',
+                                                                            group: 'sparklines',
+                                                                            type: 'area',
+                                                                            height: 185,
+                                                                            sparkline: {
+                                                                            enabled: true
+                                                                            },
+                                                                        },
+                                                                        stroke: {
+                                                                            curve: 'smooth',
+                                                                            width: 2
+                                                                        },
+                                                                        // fill: {
+                                                                        //     opacity: 1,
+                                                                        // },
+                                                                        series: [{
+                                                                            name: 'Sales',
+                                                                            data: [28, 40, 36, 52, 38, 60, 38, 52, 36, 40]
+                                                                        }],
+                                                                        labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+                                                                        yaxis: {
+                                                                            min: 0
+                                                                        },
+                                                                        grid: {
+                                                                            padding: {
+                                                                            top: 100,
+                                                                            right: 0,
+                                                                            
+                                                                            left: 0
+                                                                            }, 
+                                                                        },
+                                                                        fill: {
+                                                                            type:"gradient",
+                                                                            gradient: {
+                                                                                type: "vertical",
+                                                                                shadeIntensity: 1,
+                                                                                inverseColors: !1,
+                                                                                opacityFrom: .40,
+                                                                                opacityTo: .05,
+                                                                                stops: [45, 100]
+                                                                            }
+                                                                        },
+                                                                        tooltip: {
+                                                                            x: {
+                                                                            show: false,
+                                                                            },
+                                                                            theme: 'dark'
+                                                                        },
+                                                                        colors: ['#E71A27']
+                                                                        }
+                                                                
+                                                                        var d_2C_22 = new ApexCharts(document.querySelector("#total-orders"), d_2options2);
+                                                                        d_2C_22.render();
+                                                                    
+                                                            </script>
                                                         </div>
                                                     </div>
                                                 </div>
-                                                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-12">
-                                                    <div class="widget">
-                                                        <div class="card-body">
-                                                            <div class="icon-svg">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                                    height="24" viewBox="0 0 24 24" fill="none"
-                                                                    stroke="currentColor" stroke-width="2"
-                                                                    stroke-linecap="round" stroke-linejoin="round"
-                                                                    class="feather feather-droplet">
-                                                                    <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z">
-                                                                    </path>
-                                                                </svg>
+                                                <div
+                                                    class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
+                                                    <div class="widget-one2">
+                                                        <div class="widget-content">
+                                                            <div class="w-numeric-value">
+                                                                <div class="w-icon">
+                                                                    <svg width="70" height="85" viewBox="0 0 70 85"
+                                                                        fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                        <g filter="url(#filter0_d)">
+                                                                            <path
+                                                                                d="M42.5 5H12.5C10.5109 5 8.60322 5.79018 7.1967 7.1967C5.79018 8.60322 5 10.5109 5 12.5V72.5C5 74.4891 5.79018 76.3968 7.1967 77.8033C8.60322 79.2098 10.5109 80 12.5 80H57.5C59.4891 80 61.3968 79.2098 62.8033 77.8033C64.2098 76.3968 65 74.4891 65 72.5V27.5L42.5 5Z"
+                                                                                stroke="white" stroke-width="2"
+                                                                                stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <path d="M42.5 5V27.5H65" stroke="white"
+                                                                                stroke-width="2" stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <path d="M35 65V42.5" stroke="white"
+                                                                                stroke-width="2" stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                            <path d="M23.75 53.75H46.25" stroke="white"
+                                                                                stroke-width="2" stroke-linecap="round"
+                                                                                stroke-linejoin="round" />
+                                                                        </g>
+                                                                        <defs>
+                                                                            <filter id="filter0_d" x="0" y="0"
+                                                                                width="70" height="85"
+                                                                                filterUnits="userSpaceOnUse"
+                                                                                color-interpolation-filters="sRGB">
+                                                                                <feFlood flood-opacity="0"
+                                                                                    result="BackgroundImageFix" />
+                                                                                <feColorMatrix in="SourceAlpha"
+                                                                                    type="matrix"
+                                                                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" />
+                                                                                <feOffset />
+                                                                                <feGaussianBlur stdDeviation="2" />
+                                                                                <feColorMatrix type="matrix"
+                                                                                    values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+                                                                                <feBlend mode="normal"
+                                                                                    in2="BackgroundImageFix"
+                                                                                    result="effect1_dropShadow" />
+                                                                                <feBlend mode="normal"
+                                                                                    in="SourceGraphic"
+                                                                                    in2="effect1_dropShadow"
+                                                                                    result="shape" />
+                                                                            </filter>
+                                                                        </defs>
+                                                                    </svg>
+
+                                                                </div>
+                                                                <div class="w-content">
+                                                                    <span class="w-value">Rp 990.000.500</span>
+                                                                    <span class="w-numeric-title">Sum Transaction
+                                                                        Paid</span>
+                                                                </div>
                                                             </div>
-                                                            <h5 class="card-title">Simple</h5>
-                                                            <p class="card-text">Mauris nisi felis, placerat in volutpat
-                                                                id, varius et sapien.</p>
+                                                            <div class="w-chart">
+                                                                <div id="total-orders2"></div>
+                                                            </div>
+                                                            <script>
+                                                                var d_2options22 = {
+                                                                        chart: {
+                                                                            id: 'sparkline2',
+                                                                            group: 'sparklines2',
+                                                                            type: 'area',
+                                                                            height: 185,
+                                                                            sparkline: {
+                                                                            enabled: true
+                                                                            },
+                                                                        },
+                                                                        stroke: {
+                                                                            curve: 'smooth',
+                                                                            width: 2
+                                                                        },
+                                                                        fill: {
+                                                                            opacity: 1,
+                                                                        },
+                                                                        series: [{
+                                                                            name: 'Sales',
+                                                                            data: [28, 40, 36, 52, 38, 60, 38, 52, 36, 40]
+                                                                        }],
+                                                                        labels: ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'],
+                                                                        yaxis: {
+                                                                            min: 0
+                                                                        },
+                                                                        grid: {
+                                                                            padding: {
+                                                                            top: 100,
+                                                                            right: 0,
+                                                                            left: 0
+                                                                            }, 
+                                                                        },
+                                                                        fill: {
+                                                                            type:"gradient",
+                                                                            gradient: {
+                                                                                type: "vertical",
+                                                                                shadeIntensity: 1,
+                                                                                inverseColors: !1,
+                                                                                opacityFrom: .40,
+                                                                                opacityTo: .05,
+                                                                                stops: [45, 100]
+                                                                            }
+                                                                        },
+                                                                        tooltip: {
+                                                                            x: {
+                                                                            show: false,
+                                                                            },
+                                                                            theme: 'dark'
+                                                                        },
+                                                                        colors: ['#FD8610']
+                                                                        }
+                                                                
+                                                                        var d_2C_2 = new ApexCharts(document.querySelector("#total-orders2"), d_2options22);
+                                                                        d_2C_2.render();
+                                                                    
+                                                            </script>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -1008,7 +984,8 @@
                                     var options = {
                                         chart: {
                                             type: 'donut',
-                                            width: 380
+                                            width: '350px',
+                                            height: '350px'
                                         },
                                         colors: ['#5c1ac3', '#e2a03f', '#e7515a', '#e2a03f'],
                                         dataLabels: {
@@ -1030,7 +1007,7 @@
                                         plotOptions: {
                                         pie: {
                                             donut: {
-                                            size: '65%',
+                                            size: '60%',
                                             background: 'transparent',
                                             labels: {
                                                 show: true,
@@ -1078,7 +1055,7 @@
                                             options: {
                                                 chart: {
                                                     width: '350px',
-                                                    height: '400px'
+                                                    height: '350px'
                                                 },
                                                 legend: {
                                                     position: 'bottom'
@@ -1089,7 +1066,7 @@
                                             options: {
                                                 chart: {
                                                     width: '250px',
-                                                    height: '390px'
+                                                    height: '350px'
                                                 },
                                                 legend: {
                                                     position: 'bottom'
@@ -1097,7 +1074,7 @@
                                                 plotOptions: {
                                                 pie: {
                                                     donut: {
-                                                    size: '65%',
+                                                    size: '60%',
                                                     }
                                                 }
                                                 }
@@ -1603,13 +1580,7 @@
                                 <div class="carousel-item">
                                     <div id="tableCaption" class="col-lg-12 col-12 layout-spacing">
                                         <div class="statbox widget box box-shadow">
-                                            <div class="widget-header">
-                                                <div class="row">
-                                                    <div class="col-xl-12 col-md-12 col-sm-12 col-12">
-                                                        <h4>Captions</h4>
-                                                    </div>
-                                                </div>
-                                            </div>
+                                            
                                             <div class="widget-content widget-content-area">
                                                 <div class="table-responsive">
                                                     <table class="table mb-4">
@@ -1624,6 +1595,15 @@
                                                             </tr>
                                                         </thead>
                                                         <tbody>
+                                                            <tr>
+                                                                <td class="text-center">1</td>
+                                                                <td class="text-primary">Shaun Park</td>
+                                                                <td>Beras Merah</td>
+                                                                <td class=""><span
+                                                                        class=" shadow-none badge outline-badge-primary">Complete</span>
+                                                                </td>
+                                                                <td>5 min ago</td>
+                                                            </tr>
                                                             <tr>
                                                                 <td class="text-center">1</td>
                                                                 <td class="text-primary">Shaun Park</td>
@@ -1696,6 +1676,52 @@
                                                                 </td>
                                                                 <td>1 day ago</td>
                                                             </tr>
+                                                            <tr>
+                                                                <td class="text-center">3</td>
+                                                                <td class="text-primary">Mary McDonald</td>
+                                                                <td>Gula Halus</td>
+                                                                <td class=""><span
+                                                                        class="badge outline-badge-info shadow-none">In
+                                                                        Progress</span></td>
+                                                                <td>1 hour ago</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-center">4</td>
+                                                                <td class="text-primary">Vincent Carpenter</td>
+                                                                <td>Beras Pandan Wangi</td>
+                                                                <td class=""><span
+                                                                        class="badge outline-badge-danger shadow-none">Cancel</span>
+                                                                </td>
+                                                                <td>1 day ago</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-center">3</td>
+                                                                <td class="text-primary">Mary McDonald</td>
+                                                                <td>Gula Halus</td>
+                                                                <td class=""><span
+                                                                        class="badge outline-badge-info shadow-none">In
+                                                                        Progress</span></td>
+                                                                <td>1 hour ago</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-center">4</td>
+                                                                <td class="text-primary">Vincent Carpenter</td>
+                                                                <td>Beras Pandan Wangi</td>
+                                                                <td class=""><span
+                                                                        class="badge outline-badge-danger shadow-none">Cancel</span>
+                                                                </td>
+                                                                <td>1 day ago</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="text-center">3</td>
+                                                                <td class="text-primary">Mary McDonald</td>
+                                                                <td>Gula Halus</td>
+                                                                <td class=""><span
+                                                                        class="badge outline-badge-info shadow-none">In
+                                                                        Progress</span></td>
+                                                                <td>1 hour ago</td>
+                                                            </tr>
+                                                            <tr>
                                                         </tbody>
                                                     </table>
                                                 </div>

@@ -199,6 +199,12 @@ code {
     color: #fff;
     font-size: 20px; }
 
+  .navbar .nav-logo a.navbar-brand .navbar-brand-name2 {
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #E71A27;
+    font-size: 20px; }
+
 .navbar-brand {
   padding-top: 0.0rem;
   padding-bottom: 0.0rem;
@@ -921,7 +927,7 @@ code {
           .topbar-nav.header nav#topbar ul.menu-categories li.menu > a > div {
             align-self: center; }
         .topbar-nav.header nav#topbar ul.menu-categories li.menu:not(:last-child) > a {
-          border-right: 1px solid #515365; }
+          border-right: 0px solid #515365; }
         .topbar-nav.header nav#topbar ul.menu-categories li.menu a > div svg:not(.feather-chevron-down) {
           width: 25px;
           height: 25px;
