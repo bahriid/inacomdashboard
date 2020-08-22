@@ -165,6 +165,27 @@
     top: 3.49px;
 }
 
+.widget-four .widget-content .w-browser-stats .progress2 {
+    margin-bottom: 0;
+    height: 22px;
+    padding: 4px;
+    border-radius: 20px;
+    box-shadow: none;
+}
+.widget-four .widget-content .w-browser-stats .progress2 .progress-bar2 {
+    position: relative;
+}
+.widget-four .widget-content .w-browser-stats .progress2 .progress-bar2:before {
+    content: '';
+    height: 7px;
+    width: 7px;
+    background: #0e1726;
+    position: absolute;
+    right: 3px;
+    border-radius: 50%;
+    top: 3.49px;
+}
+
 /*
     ==================
         Total Sales
@@ -371,6 +392,13 @@
     color: #888ea8;
 }
 .widget-three .widget-content .w-summary-stats .progress {
+    margin-bottom: 0;
+    height: 6px;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+.widget-three .widget-content .w-summary-stats .progress2 {
     margin-bottom: 0;
     height: 6px;
     border-radius: 20px;

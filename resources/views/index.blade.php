@@ -13,7 +13,7 @@
 
         <!-- BEGIN GLOBAL MANDATORY STYLES -->
         <link href="https://fonts.googleapis.com/css?family=Quicksand:400,500,600,700&display=swap" rel="stylesheet">
-        <link href="{{asset('bootstrap/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css" />
+        <link href="{{asset('bootstrap/css/bootstrap.css')}}" rel="stylesheet" type="text/css" />
         <link href="{{asset('assets/css/plugins.css')}}" rel="stylesheet" type="text/css" />
         <!-- END GLOBAL MANDATORY STYLES -->
 
@@ -838,7 +838,8 @@
 
                                                         <div class="acc-total-info">
                                                             <h5 style="color:#E71A27">Total</h5>
-                                                            <p style="color:#FD8610" class="acc-amount">{{$user_sum}} Users</p>
+                                                            <p style="color:#FD8610" class="acc-amount">{{$user_sum}}
+                                                                Users</p>
                                                         </div>
 
                                                         <div class="inv-detail">
@@ -1126,7 +1127,7 @@
                                                         </div>
 
                                                         <div class="widget-content">
-                                                        <div class="transactions-list">
+                                                            <div class="transactions-list">
                                                                 <div class="t-item">
                                                                     <div class="t-company-name">
                                                                         <div class="t-icon">
@@ -1141,11 +1142,11 @@
 
                                                                     </div>
                                                                     <div class="t-rate rate-inc">
-                                                                        <p><span>Rp 450.500</span> 
+                                                                        <p><span>Rp 450.500</span>
                                                                             </svg></p>
                                                                     </div>
                                                                 </div>
-                                                            </div> 
+                                                            </div>
 
                                                             <div class="transactions-list">
                                                                 <div class="t-item">
@@ -1162,7 +1163,7 @@
 
                                                                     </div>
                                                                     <div class="t-rate rate-inc">
-                                                                        <p><span>Rp 421.140</span> 
+                                                                        <p><span>Rp 421.140</span>
                                                                             </svg></p>
                                                                     </div>
                                                                 </div>
@@ -1223,7 +1224,7 @@
 
                                                                     </div>
                                                                     <div class="t-rate rate-inc">
-                                                                        <p><span>Rp 330.105</span> 
+                                                                        <p><span>Rp 330.105</span>
                                                                             </svg></p>
                                                                     </div>
                                                                 </div>
@@ -1239,7 +1240,7 @@
                                                         <div class="widget-content">
                                                             <div class="vistorsBrowser">
                                                                 <div class="browser-list">
-                            
+
                                                                     <div class="w-browser-details">
                                                                         <div class="w-browser-info">
                                                                             <h6>Chrome</h6>
@@ -1247,7 +1248,7 @@
                                                                         </div>
                                                                         <div class="w-browser-stats">
                                                                             <div class="progress">
-                                                                            <div class="progress-bar bg-gradient-warning"
+                                                                                <div class="progress-bar bg-gradient-success"
                                                                                     role="progressbar"
                                                                                     style="width: 65%"
                                                                                     aria-valuenow="90" aria-valuemin="0"
@@ -1265,7 +1266,7 @@
                                                                         </div>
                                                                         <div class="w-browser-stats">
                                                                             <div class="progress">
-                                                                            <div class="progress-bar bg-gradient-warning"
+                                                                                <div class="progress-bar bg-gradient-success"
                                                                                     role="progressbar"
                                                                                     style="width: 35%"
                                                                                     aria-valuenow="65" aria-valuemin="0"
@@ -1286,7 +1287,7 @@
 
                                                                         <div class="w-browser-stats">
                                                                             <div class="progress">
-                                                                            <div class="progress-bar bg-gradient-warning"
+                                                                                <div class="progress-bar bg-gradient-success"
                                                                                     role="progressbar"
                                                                                     style="width: 35%"
                                                                                     aria-valuenow="65" aria-valuemin="0"
@@ -1307,7 +1308,7 @@
 
                                                                         <div class="w-browser-stats">
                                                                             <div class="progress">
-                                                                            <div class="progress-bar bg-gradient-warning"
+                                                                                <div class="progress-bar bg-gradient-success"
                                                                                     role="progressbar"
                                                                                     style="width: 35%"
                                                                                     aria-valuenow="65" aria-valuemin="0"
@@ -1329,7 +1330,7 @@
 
                                                                         <div class="w-browser-stats">
                                                                             <div class="progress">
-                                                                                <div class="progress-bar bg-gradient-warning"
+                                                                                <div class="progress-bar bg-gradient-success"
                                                                                     role="progressbar"
                                                                                     style="width: 15%"
                                                                                     aria-valuenow="15" aria-valuemin="0"
@@ -1359,14 +1360,15 @@
                                                 <div class="widget-content">
                                                     <div class="vistorsBrowser">
                                                         <div class="browser-list">
+
                                                             <div class="w-browser-details">
                                                                 <div class="w-browser-info">
                                                                     <h6>Chrome</h6>
                                                                     <p class="browser-count">65%</p>
                                                                 </div>
                                                                 <div class="w-browser-stats">
-                                                                    <div class="progress">
-                                                                    <div class="progress-bar bg-gradient-danger"
+                                                                    <div class="progress2">
+                                                                        <div class="progress-bar2 bg-gradient-warning"
                                                                             role="progressbar" style="width: 65%"
                                                                             aria-valuenow="90" aria-valuemin="0"
                                                                             aria-valuemax="100"></div>
@@ -1377,21 +1379,18 @@
 
                                                         <div class="browser-list">
                                                             <div class="w-browser-details">
-
                                                                 <div class="w-browser-info">
                                                                     <h6>Safari</h6>
                                                                     <p class="browser-count">25%</p>
                                                                 </div>
-
                                                                 <div class="w-browser-stats">
-                                                                    <div class="progress">
-                                                                        <div class="progress-bar bg-gradient-danger"
+                                                                    <div class="progress2">
+                                                                        <div class="progress-bar2 bg-gradient-warning"
                                                                             role="progressbar" style="width: 35%"
                                                                             aria-valuenow="65" aria-valuemin="0"
                                                                             aria-valuemax="100"></div>
                                                                     </div>
                                                                 </div>
-
                                                             </div>
 
                                                         </div>
@@ -1405,8 +1404,8 @@
                                                                 </div>
 
                                                                 <div class="w-browser-stats">
-                                                                    <div class="progress">
-                                                                        <div class="progress-bar bg-gradient-danger"
+                                                                    <div class="progress2">
+                                                                        <div class="progress-bar2 bg-gradient-warning"
                                                                             role="progressbar" style="width: 35%"
                                                                             aria-valuenow="65" aria-valuemin="0"
                                                                             aria-valuemax="100"></div>
@@ -1419,15 +1418,14 @@
 
                                                         <div class="browser-list">
                                                             <div class="w-browser-details">
-
                                                                 <div class="w-browser-info">
                                                                     <h6>Safari</h6>
                                                                     <p class="browser-count">25%</p>
                                                                 </div>
 
                                                                 <div class="w-browser-stats">
-                                                                    <div class="progress">
-                                                                        <div class="progress-bar bg-gradient-danger"
+                                                                    <div class="progress2">
+                                                                        <div class="progress-bar2 bg-gradient-warning"
                                                                             role="progressbar" style="width: 35%"
                                                                             aria-valuenow="65" aria-valuemin="0"
                                                                             aria-valuemax="100"></div>
@@ -1439,7 +1437,6 @@
                                                         </div>
 
                                                         <div class="browser-list">
-                    
                                                             <div class="w-browser-details">
 
                                                                 <div class="w-browser-info">
@@ -1448,8 +1445,8 @@
                                                                 </div>
 
                                                                 <div class="w-browser-stats">
-                                                                    <div class="progress">
-                                                                    <div class="progress-bar bg-gradient-danger"
+                                                                    <div class="progress2">
+                                                                        <div class="progress-bar2 bg-gradient-warning"
                                                                             role="progressbar" style="width: 15%"
                                                                             aria-valuenow="15" aria-valuemin="0"
                                                                             aria-valuemax="100"></div>
@@ -1468,178 +1465,54 @@
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
                                             <div class="widget-four widget">
                                                 <div class="widget-heading">
-                                                    <h5 class="">Visitors by Browser</h5>
+                                                    <h5 class="">Top 5 Most Views Products</h5>
                                                 </div>
                                                 <div class="widget-content">
-                                                    <div class="vistorsBrowser">
-                                                        <div class="browser-list">
-                                                            <div class="w-icon">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                                    height="24" viewBox="0 0 24 24" fill="none"
-                                                                    stroke="currentColor" stroke-width="2"
-                                                                    stroke-linecap="round" stroke-linejoin="round"
-                                                                    class="feather feather-chrome">
-                                                                    <circle cx="12" cy="12" r="10"></circle>
-                                                                    <circle cx="12" cy="12" r="4"></circle>
-                                                                    <line x1="21.17" y1="8" x2="12" y2="8"></line>
-                                                                    <line x1="3.95" y1="6.06" x2="8.54" y2="14"></line>
-                                                                    <line x1="10.88" y1="21.94" x2="15.46" y2="14">
-                                                                    </line>
-                                                                </svg>
-                                                            </div>
-                                                            <div class="w-browser-details">
-                                                                <div class="w-browser-info">
-                                                                    <h6>Chrome</h6>
-                                                                    <p class="browser-count">65%</p>
-                                                                </div>
-                                                                <div class="w-browser-stats">
-                                                                    <div class="progress">
-                                                                        <div class="progress-bar bg-gradient-primary"
-                                                                            role="progressbar" style="width: 65%"
-                                                                            aria-valuenow="90" aria-valuemin="0"
-                                                                            aria-valuemax="100"></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-
-                                                        <div class="browser-list">
-                                                            <div class="w-icon">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                                    height="24" viewBox="0 0 24 24" fill="none"
-                                                                    stroke="currentColor" stroke-width="2"
-                                                                    stroke-linecap="round" stroke-linejoin="round"
-                                                                    class="feather feather-compass">
-                                                                    <circle cx="12" cy="12" r="10"></circle>
-                                                                    <polygon
-                                                                        points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76">
-                                                                    </polygon>
-                                                                </svg>
-                                                            </div>
-                                                            <div class="w-browser-details">
-
-                                                                <div class="w-browser-info">
-                                                                    <h6>Safari</h6>
-                                                                    <p class="browser-count">25%</p>
-                                                                </div>
-
-                                                                <div class="w-browser-stats">
-                                                                    <div class="progress">
-                                                                        <div class="progress-bar bg-gradient-danger"
-                                                                            role="progressbar" style="width: 35%"
-                                                                            aria-valuenow="65" aria-valuemin="0"
-                                                                            aria-valuemax="100"></div>
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div>
-
-                                                        <div class="browser-list">
-                                                            <div class="w-icon">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                                    height="24" viewBox="0 0 24 24" fill="none"
-                                                                    stroke="currentColor" stroke-width="2"
-                                                                    stroke-linecap="round" stroke-linejoin="round"
-                                                                    class="feather feather-compass">
-                                                                    <circle cx="12" cy="12" r="10"></circle>
-                                                                    <polygon
-                                                                        points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76">
-                                                                    </polygon>
-                                                                </svg>
-                                                            </div>
-                                                            <div class="w-browser-details">
-
-                                                                <div class="w-browser-info">
-                                                                    <h6>Safari</h6>
-                                                                    <p class="browser-count">25%</p>
-                                                                </div>
-
-                                                                <div class="w-browser-stats">
-                                                                    <div class="progress">
-                                                                        <div class="progress-bar bg-gradient-danger"
-                                                                            role="progressbar" style="width: 35%"
-                                                                            aria-valuenow="65" aria-valuemin="0"
-                                                                            aria-valuemax="100"></div>
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div>
-
-                                                        <div class="browser-list">
-                                                            <div class="w-icon">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                                    height="24" viewBox="0 0 24 24" fill="none"
-                                                                    stroke="currentColor" stroke-width="2"
-                                                                    stroke-linecap="round" stroke-linejoin="round"
-                                                                    class="feather feather-compass">
-                                                                    <circle cx="12" cy="12" r="10"></circle>
-                                                                    <polygon
-                                                                        points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76">
-                                                                    </polygon>
-                                                                </svg>
-                                                            </div>
-                                                            <div class="w-browser-details">
-
-                                                                <div class="w-browser-info">
-                                                                    <h6>Safari</h6>
-                                                                    <p class="browser-count">25%</p>
-                                                                </div>
-
-                                                                <div class="w-browser-stats">
-                                                                    <div class="progress">
-                                                                        <div class="progress-bar bg-gradient-danger"
-                                                                            role="progressbar" style="width: 35%"
-                                                                            aria-valuenow="65" aria-valuemin="0"
-                                                                            aria-valuemax="100"></div>
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div>
-
-                                                        <div class="browser-list">
-                                                            <div class="w-icon">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
-                                                                    height="24" viewBox="0 0 24 24" fill="none"
-                                                                    stroke="currentColor" stroke-width="2"
-                                                                    stroke-linecap="round" stroke-linejoin="round"
-                                                                    class="feather feather-globe">
-                                                                    <circle cx="12" cy="12" r="10"></circle>
-                                                                    <line x1="2" y1="12" x2="22" y2="12"></line>
-                                                                    <path
-                                                                        d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
-                                                                    </path>
-                                                                </svg>
-                                                            </div>
-                                                            <div class="w-browser-details">
-
-                                                                <div class="w-browser-info">
-                                                                    <h6>Others</h6>
-                                                                    <p class="browser-count">15%</p>
-                                                                </div>
-
-                                                                <div class="w-browser-stats">
-                                                                    <div class="progress">
-                                                                        <div class="progress-bar bg-gradient-warning"
-                                                                            role="progressbar" style="width: 15%"
-                                                                            aria-valuenow="15" aria-valuemin="0"
-                                                                            aria-valuemax="100"></div>
-                                                                    </div>
-                                                                </div>
-
-                                                            </div>
-
-                                                        </div>
-
+                                                    <div id="donut-chart">
                                                     </div>
-
                                                 </div>
                                             </div>
+                                            <script>
+                                                var donutChart = {
+                                                    chart: {
+                                                        height: 300,
+                                                        type: 'pie',
+                                                        toolbar: {
+                                                            show: false,
+                                                        }
+                                                    },
+                                                    stroke: {
+                                                        colors: '#0e1726'
+                                                    },
+                                                    series: [44, 55, 41, 17, 20],
+                                                    dataLabels: {
+                                                        enabled: true,
+                                                    },
+                                                    fill: {
+                                                        // colors: ['#B32824','#288A28','#FD8610', '#4690A7', '#D5C17B'],
+                                                        type: 'gradient',
+                                                    },
+                                                    labels: ['Apple', 'Mango', 'Orange', 'Watermelon', 'Nanas'],
+                                                    responsive: [{
+                                                        breakpoint: 480,
+                                                        options: {
+                                                            chart: {
+                                                                width: 200
+                                                            },
+                                                            legend: {
+                                                                position: 'bottom'
+                                                            }
+                                                        }
+                                                    }]
+                                                }
+
+                                                var donut = new ApexCharts(
+                                                    document.querySelector("#donut-chart"),
+                                                    donutChart
+                                                );
+
+                                                donut.render();
+                                            </script>
                                         </div>
                                         <div class="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12 layout-spacing">
                                             <div class="statbox widget box box-shadow">
@@ -1651,46 +1524,78 @@
                                                 </div>
                                             </div>
                                             <script>
-                                                // Simple Bar
-                                    Apex.grid = {
-                                        borderColor: '#1D2225'
-                                    }
-                                    Apex.track = {
-                                        background: '#0e1726',
-                                    }
-                                    Apex.tooltip = {
-                                        theme: 'dark'
-                                    }
-                                    var sBar = {
-                                        chart: {
-                                            height: 350,
-                                            type: 'bar',
-                                            toolbar: {
-                                            show: false,
-                                            }
-                                        },
-                                        plotOptions: {
-                                            bar: {
-                                                horizontal: true,
-                                            }
-                                        },
-                                        dataLabels: {
-                                            enabled: false
-                                        },
-                                        series: [{
-                                            data: [400, 430, 448, 470, 540, 580, 690, 1100]
-                                        }],
-                                        xaxis: {
-                                            categories: ['Perkebunan', 'Peternakan', 'Perikanan', 'Pertanian', 'Buah', 'Saprodi', 'Olahan', 'Donasi'],
-                                        }
-                                    }
+                                                Apex.grid = {
+                                                    borderColor: '#1D2225'
+                                                }
+                                                Apex.track = {
+                                                    background: '#0e1726',
+                                                }
+                                                Apex.tooltip = {
+                                                    theme: 'dark'
+                                                }
+                                                var sBar = {
+                                                    chart: {
+                                                        height: 350,
+                                                        type: 'bar',
+                                                        toolbar: {
+                                                        show: false,
+                                                        }
+                                                    },
+                                                    plotOptions: {
+                                                        bar: {
+                                                            horizontal: true,
+                                                        }
+                                                    },
+                                                    fill: {
+                                                    colors: ['#B32824']
+                                                    },
+                                                    dataLabels: {
+                                                        enabled: false
+                                                    },
+                                                    series: [{
+                                                        data: [400, 430, 448, 470, 540, 580, 690, 1100]
+                                                    }],
+                                                    xaxis: {
+                                                        type: 'category',
+                                                        categories: ['Perkebunan', 'Peternakan', 'Perikanan', 'Pertanian', 'Buah', 'Saprodi', 'Olahan', 'Donasi'],
+                                                        labels: {
+                                                            show: true,
+                                                            style: {
+                                                                colors: ['#FFF'],
+                                                                fontSize: '12px',
+                                                                fontFamily: 'Helvetica, Arial, sans-serif',
+                                                                fontWeight: 400,
+                                                                cssClass: 'apexcharts-xaxis-label',
+                                                            },
+                                                        },
+                                                    },
+                                                    yaxis: [{
+                                                        show: true,
+                                                        showAlways: true,
+                                                        labels: {
+                                                            style: {
+                                                                // colors: ['#FFF'],
+                                                                fontSize: '12px',
+                                                                fontFamily: 'Helvetica, Arial, sans-serif',
+                                                                fontWeight: 400,
+                                                                cssClass: 'apexcharts-xaxis-label',
+                                                            }
+                                                        },
+                                                        title: {
+                                                            text: "Kategori",
+                                                            style: {
+                                                                color: '#FFF',
+                                                            }
+                                                        },
+                                                    }]
+                                                }
 
-                                    var chart = new ApexCharts(
-                                        document.querySelector("#s-bar"),
-                                        sBar
-                                    );
+                                                var chart = new ApexCharts(
+                                                    document.querySelector("#s-bar"),
+                                                    sBar
+                                                );
 
-                                    chart.render();
+                                                chart.render();
                                             </script>
                                         </div>
                                     </div>
